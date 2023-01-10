@@ -103,7 +103,8 @@ search for all available channels.</p>
     Screenshot below shows the target network with <b>ESSID CYTA-GKS67H</b>, which is the result of the command <b>airodump-ng wlan0mon</b>, which is used to monitor and record packets for networks that are in our range. In this particular case we use it to search and select the target. The screenshot below shows the information that will be needed to record the handshake, the <b>BSSID</b> and the <b>Channel</b>.
   </p>
   
-    <p align="center"><img width="742" alt="image" src="https://user-images.githubusercontent.com/120057560/211659311-eb084e75-a16b-4874-a476-4ebea56b55b7.png">
+<p align="center">
+      <img width="742" alt="image" src="https://user-images.githubusercontent.com/120057560/211659311-eb084e75-a16b-4874-a476-4ebea56b55b7.png">
 </p>
 <p align="center">Screenshot 2.2</p>
 
