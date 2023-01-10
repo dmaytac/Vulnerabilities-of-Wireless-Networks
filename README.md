@@ -2,8 +2,9 @@
 <p>The content provided is for educational and informational purposes only.</p>
 
 ## Evil Twin Attack
+<details>
 <br/>
-<p>In the first attack scenario, we use a tool called Fluxion. The purpose of the attack is to obtain the password by creating a twin access point. The attack is split into two parts. The first part is intended to capture the 4-way handshake. In the second part, we will create a fake twin access point, to recover the password. After opening the Fluxion tool, first the target must be selected and then a 4-way handshake must be recorded. The attack was done on a local network.</p>
+<p>In this attack scenario, we use a tool called Fluxion. The purpose of the attack is to obtain the password by creating a twin access point. The attack is split into two parts. The first part is intended to capture the 4-way handshake. In the second part, we will create a fake twin access point, to recover the password. After opening the Fluxion tool, first the target must be selected and then a 4-way handshake must be recorded. The attack was done on a local network.</p>
 
 ### Handshake Snooper
 <p>In the screenshot 1.1 below is the interface of the Fluxion tool. To get the 4-way handshake, press 2, then enter (Handshake Snooper).</p>
@@ -71,3 +72,4 @@ search for all available channels.</p>
 <p align="center"><img width="700" alt="image" src="https://user-images.githubusercontent.com/120057560/211591711-7648a348-9d8e-44d3-9103-926951e55ba5.png">
 </p>
 <p align="center">Screenshot 1.12</p>
+</details>
