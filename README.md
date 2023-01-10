@@ -111,7 +111,7 @@ search for all available channels.</p>
 <p>
   Enter the command below. In this case, the airodump-ng command serves to record the 4-way handshake. The parameters used in the airodump-ng command are as follows:
   <br/>
- <b> airodump-ng -c 13 -w./root/attack --bssid wlan0mon </b>
+ <b> airodump-ng -c 13 -w /root/attack/file.cap --bssid wlan0mon </b>
       <ul>
         <li> <b>-c</b> is for the channel that used from the target </li>
         <li> <b>--bssid</b>  the MAC address of the target </li>
@@ -166,10 +166,12 @@ We run the command at the terminal:</p>
         <li> <b>-b</b> the MAC address of target AP</li>
         <li> <b>/root/attack/file.cap</b> the location of 4 way handshake</li>
       </ul>
+<p>
+  The screenshot 2.5 shows the found password. It took about 8 minutes to find out. In this particular attack, the password was easily found because it was short and existed in the rockyou.txt file. However, finding the password is not always an easy and quick process. It depends on its length and mainly how complicated it is. In this case, the password consisted of a phrase which is quite popular as a password.
+<p/>
 <p align="center">
     <img width="741" alt="image" src="https://user-images.githubusercontent.com/120057560/211671074-42995dff-feb4-4681-ad11-3885836ae036.png"> 
 </p>
-
 
 <p align="center">Screenshot 2.5</p><br/>
 
