@@ -109,11 +109,13 @@ search for all available channels.</p>
 <p align="center">Screenshot 2.2</p><br/>
 
 <p>
-  Enter the command <b> airodump-ng -c 13 -w./root/attack --bssid wlan0mon </b>. In this case, the airodump-ng command serves to record the 4-way handshake. The parameters used in the airodump-ng command are as follows:
+  Enter the command below. In this case, the airodump-ng command serves to record the 4-way handshake. The parameters used in the airodump-ng command are as follows:
+  <br/>
+ <b> airodump-ng -c 13 -w./root/attack --bssid wlan0mon </b>
       <ul>
         <li> <b>-c</b> is for the channel that used from the target </li>
         <li> <b>--bssid</b>  the MAC address of the target </li>
-        <li> <b>-w</b> the directory of our capture </li>
+        <li> <b>-w</b> the location of 4 way handshake </li>
         <li> <b>wlan0mon</b> the network card that is in monitor mode </li>
       </ul>
 </p>
@@ -122,6 +124,7 @@ search for all available channels.</p>
 The screenshot below shows that one user is logged in. In this case, we can perform two attacks, the passive and the aggressive. The passive attack is already running, we just have to wait for some user to connect to the access point. Aggressive attack refers to forcing the logout of a user who is already logged in by sending deauthentication packets.
 <br/>
 We run the command at the terminal:</p> 
+<br/>
     <b>aireplay-ng -0 1 -a 72:68:C8:F2:A3:15 -c 44:18:FD:70:AA:04 wlan0mon<b/>
   <ul>
         <li> <b>-0</b> the number of deauthentication packets </li>
@@ -156,13 +159,18 @@ We run the command at the terminal:</p>
 
 <p>
   And we are at the last step, in the dictionary attack. That is a kind of brute force attack. The text file that we use, rockyou.txt, is widely known and contains all the possible vulnerable words that are used for passwords. The command that we are going to use are below
-<p/>
+<p/><br/>
       <b>aircrack-ng -w rockyou.txt -b /root/attack/file.cap<b/>
-
+      <ul>
+        <li> <b>-w</b> the number of deauthentication packets </li>
+        <li> <b>-b</b> the MAC address of target AP</li>
+        <li> <b>/root/attack/file.cap</b> the location of 4 way handshake</li>
+      </ul>
 <p align="center">
- 
+    <img width="741" alt="image" src="https://user-images.githubusercontent.com/120057560/211671074-42995dff-feb4-4681-ad11-3885836ae036.png"> 
 </p>
-  
+
+
 <p align="center">Screenshot 2.5</p><br/>
 
 
