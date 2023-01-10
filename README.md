@@ -7,7 +7,8 @@
 In this attack scenario, we use a tool called Fluxion. The purpose of the attack is to obtain the password by creating a twin access point. The attack is split into two parts. The first part is intended to capture the 4-way handshake. In the second part, we will create a fake twin access point, to recover the password. After opening the Fluxion tool, first the target must be selected and then a 4-way handshake must be recorded. The attack was done on a local network.
 <br/>
 
-<details><summary>More information about Evil Twin Attack</summary>
+<details><br/>
+  <summary>More information about Evil Twin Attack</summary>
 <br/>
   
 ### Handshake Snooper
