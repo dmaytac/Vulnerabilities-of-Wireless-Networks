@@ -65,7 +65,8 @@ search for all available channels.</p>
 <p align="center">Image 1.11</p>
 
 <p>After the user attemps to login with the correct password, the attack finishes and we get a text outpout which is contains the password</p>
-<p align="center">![image](https://user-images.githubusercontent.com/120057560/211590381-a0afe17b-9eef-40d4-ae07-0fd6be6c7db0.png)
+<p align="center">![image](https://user-images.githubusercontent.com/120057560/211591711-7648a348-9d8e-44d3-9103-926951e55ba5.png)
+
 </p>
 <p align="center">Image 1.12</p>
 
