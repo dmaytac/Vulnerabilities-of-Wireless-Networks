@@ -54,20 +54,21 @@ search for all available channels.</p>
 </p>
 <p align="center">Image 1.9</p>
 
-<p>Image 1.10 shows two options for the type of connection to the fake network. In the disconnected option, after connecting to the fake access point, a window appears (popup) to enter the password. On the other hand, the emulated option does not bring up any window for entering the code. When the victim attempts to enter a web page from the browser, they will be redirected to the Captive Portal we have created. However, we are going to select the disconnected connection type. So we proceed to the last step, before the attack, where we choose the appearance and language of the Captive Portal.</p>
+<p>Image 1.10 shows two options for the type of connection to the fake network. In the disconnected option, after connecting to the fake access point, a window appears (popup) to enter the password. On the other hand, the emulated option does not bring up any window for entering the code. When the victim attempts to enter a web page from the browser, they will be redirected to the Captive Portal we have created. However, we are going to select the disconnected connection type.</p>
 <p align="center"><img width="727" alt="image" src="https://user-images.githubusercontent.com/120057560/211584765-b68a506c-d5dc-49a5-9d1d-8417ce4ad5b5.png">
 </p>
 <p align="center">Image 1.10</p>
 
-<p></p>
-<p align="center">
+<p>So we proceed to the last step, before the attack, where we choose the appearance and language of the Captive Portal.(Image 1.11)</p>
+<p align="center"><img width="706" alt="image" src="https://user-images.githubusercontent.com/120057560/211588499-072a3d45-0930-4cb3-a9c8-9c93d598cd2f.png">
 </p>
 <p align="center">Image 1.11</p>
 
-<p></p>
-<p align="center">
+<p>After the user attemps to login with the correct password, the attack finishes and we get a text outpout which is contains the password</p>
+<p align="center">![image](https://user-images.githubusercontent.com/120057560/211590381-a0afe17b-9eef-40d4-ae07-0fd6be6c7db0.png)
 </p>
 <p align="center">Image 1.12</p>
+
 
 <p></p>
 <p align="center">
