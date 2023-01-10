@@ -8,7 +8,7 @@
 <p>In the picture 1.1 is the interface of the Fluxion tool. To get the 4 -way handshake, press 2, then enter (Handshake Snooper).</p>
 
 <img width="742" alt="image" src="https://user-images.githubusercontent.com/120057560/211566986-ab1271e9-f7ea-4f5a-809a-40dee3a523cc.png">
-<p style="text-align:center;">Image 1.1</p>
+<p align="center">Image 1.1</p>
 
 <p>1.2 select the third option. All channels (2.4 Ghz & 5Ghz) for the
 search for all available channels.</p>
