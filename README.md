@@ -1,11 +1,11 @@
 # Vulnerabilities of Wireless Networks
 <p>The content provided is for educational and informational purposes only.</p>
 
-##Evil Twin Attack
+## Evil Twin Attack
 <br/>
 <p>In the first attack scenario, we use a tool called Fluxion. The purpose of the attack is to obtain the password by creating a twin access point. The attack is split into two parts. The first part is intended to capture the 4-way handshake. In the second part, we will create a fake twin access point, to recover the password. After opening the Fluxion tool, first the target must be selected and then a 4-way handshake must be recorded. The attack was done on a local network.</p>
 
-###Handshake Snooper
+### Handshake Snooper
 <p>In the screenshot 1.1 below is the interface of the Fluxion tool. To get the 4-way handshake, press 2, then enter (Handshake Snooper).</p>
 
 <p align="center">
@@ -40,7 +40,8 @@ search for all available channels.</p>
 </p>
 <p align="center">Screenshot 1.6</p>
 
-###Creating Fake Access Point 
+### Creating Fake Access Point 
+
 <p>After select the Captive Portal from the first interface, select the Rogue AP - hostpd(screenshot 1.7).</p>
 <p align="center"><img width="733" alt="image" src="https://user-images.githubusercontent.com/120057560/211582181-54c1803f-7847-497e-a0ff-892cb2b5d30c.png">
 </p>
