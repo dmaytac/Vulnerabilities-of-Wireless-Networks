@@ -7,7 +7,7 @@
 In this attack scenario, we use a tool called Fluxion. The purpose of the attack is to obtain the password by creating a twin access point. The attack is split into two parts. The first part is intended to capture the 4-way handshake. In the second part, we will create a fake twin access point, to recover the password. After opening the Fluxion tool, first the target must be selected and then a 4-way handshake must be recorded. The attack was done on a local network.
 <br/>
 
-<details><summary>More information</summary>
+<details><summary>More information about Evil Twin Attack</summary>
 <br/>
   
 ### Handshake Snooper
@@ -77,4 +77,27 @@ search for all available channels.</p>
 <p align="center"><img width="700" alt="image" src="https://user-images.githubusercontent.com/120057560/211591711-7648a348-9d8e-44d3-9103-926951e55ba5.png">
 </p>
 <p align="center">Screenshot 1.12</p>
+</details>
+
+## Dictionary Attack
+
+<br/>
+  <p>
+    In the following attack, we will capture the 4-way handshake on a local network and then use Aircrack-ng to "crack" the key with a dictionary attack
+  </p>
+<br/>
+
+<details>
+  <summary>More information about Evil Twin Attack</summary>
+  
+  <p>
+    Before we start, we must manually put the network card in monitor mode. This is achieved by running the command ** airmon-ng start wlan0 ** in the terminal. Then, to confirm that it is in monitor mode, we type in the terminal the command ** iwconfig ** and as shown in screenshot 2.1.
+  </p>
+  
+  <p align="center">
+</p>
+<p align="center">Screenshot 2.1</p>
+
+  
+
 </details>
