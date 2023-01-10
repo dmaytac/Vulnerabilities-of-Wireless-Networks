@@ -91,7 +91,7 @@ search for all available channels.</p>
   <summary>More information about Evil Twin Attack</summary>
   
   <p>
-    Before we start, we must manually put the network card in monitor mode. This is achieved by running the command ** airmon-ng start wlan0 ** in the terminal. Then, to confirm that it is in monitor mode, we type in the terminal the command ** iwconfig ** and as shown in screenshot 2.1.
+    Before we start, we must manually put the network card in monitor mode. This is achieved by running the command <b>airmon-ng start wlan0</b> in the terminal. Then, to confirm that it is in monitor mode, we type in the terminal the command <b>iwconfig</b> and as shown in screenshot 2.1.
   </p>
   
   <p align="center">
