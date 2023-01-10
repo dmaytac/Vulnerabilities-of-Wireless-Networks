@@ -88,7 +88,7 @@ search for all available channels.</p>
 <br/>
 
 <details>
-  <summary>More information about Evil Twin Attack</summary>
+  <summary>More information about Dictionary Attack</summary>
   
   <p>
     Before we start, we must manually put the network card in monitor mode. This is achieved by running the command <b>airmon-ng start wlan0</b> in the terminal. Then, to confirm that it is in monitor mode, we type in the terminal the command <b>iwconfig</b> and as shown in screenshot 2.1.
@@ -106,7 +106,7 @@ search for all available channels.</p>
 <p align="center">
       <img width="742" alt="image" src="https://user-images.githubusercontent.com/120057560/211659311-eb084e75-a16b-4874-a476-4ebea56b55b7.png">
 </p>
-<p align="center">Screenshot 2.2</p>
+<p align="center">Screenshot 2.2</p><br/>
 
 <p>
   Enter the command <b> airodump-ng -c 13 -w./root/attack --bssid wlan0mon </b>. In this case, the airodump-ng command serves to record the 4-way handshake. The parameters used in the airodump-ng command are as follows:
@@ -116,13 +116,37 @@ search for all available channels.</p>
         <li> <b>-w</b> the directory of our capture </li>
         <li> <b>wlan0mon</b> the network card that is in monitor mode </li>
       </ul>
-    </p>
-  
-<p align="center">
-    
+</p>
+
+<p>
+The screenshot below shows that one user is logged in. In this case, we can perform two attacks, the passive and the aggressive. The passive attack is already running, we just have to wait for some user to connect to the access point. Aggressive attack refers to forcing the logout of a user who is already logged in by sending deauthentication packets.
+<br/>
+We run the command at the terminal <b>aireplay-ng -0 1 -a -c wlan0mon<b/>
+  <ul>
+        <li> <b>-0</b>the number of deauthentication packets </li>
+        <li> <b>-a</b> the MAC address of target AP</li>
+        <li> <b>-c</b>the MAC address of target user</li>
+        <li> <b>wlan0mon</b> the network card that is in monitor mode </li>
+      </ul>
 </p>
   
-<p align="center">Screenshot 2.3</p>
+<p align="center">
+    <img width="739" alt="image" src="https://user-images.githubusercontent.com/120057560/211664611-96ac7fe3-f23b-4933-9249-5e8f07050564.png">
+
+</p>
   
+<p align="center">Screenshot 2.3</p><br/>
+
+
+
+<p>
+  
+<p/>
+
+<p align="center">
+ 
+</p>
+  
+<p align="center">Screenshot 2.3</p><br/>
 
 </details>
