@@ -108,7 +108,7 @@ search for all available channels.</p>
 </p>
 <p align="center">Screenshot 2.2</p>
 
-    <p>
+<p>
   Enter the command <b> airodump-ng -c 13 -w./root/attack --bssid wlan0mon </b>. In this case, the airodump-ng command serves to record the 4-way handshake. The parameters used in the airodump-ng command are as follows:
       <ul>
         <li> <b>-c</b> is for the channel that used from the target </li>
