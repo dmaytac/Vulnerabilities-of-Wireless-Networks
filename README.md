@@ -122,7 +122,7 @@ search for all available channels.</p>
 The screenshot below shows that one user is logged in. In this case, we can perform two attacks, the passive and the aggressive. The passive attack is already running, we just have to wait for some user to connect to the access point. Aggressive attack refers to forcing the logout of a user who is already logged in by sending deauthentication packets.
 <br/>
 We run the command at the terminal:</p> 
-    ```aireplay-ng -0 1 -a 72:68:C8:F2:A3:15 -c 44:18:FD:70:AA:04 wlan0mon```
+    <b>aireplay-ng -0 1 -a 72:68:C8:F2:A3:15 -c 44:18:FD:70:AA:04 wlan0mon<b/>
   <ul>
         <li> <b>-0</b> the number of deauthentication packets </li>
         <li> <b>-a</b> the MAC address of target AP</li>
@@ -157,7 +157,7 @@ We run the command at the terminal:</p>
 <p>
   And we are at the last step, in the dictionary attack. That is a kind of brute force attack. The text file that we use, rockyou.txt, is widely known and contains all the possible vulnerable words that are used for passwords. The command that we are going to use are below
 <p/>
-      ```aircrack-ng -w rockyou.txt -b /root/attack/file.cap```
+      <b>aircrack-ng -w rockyou.txt -b /root/attack/file.cap<b/>
 
 <p align="center">
  
